@@ -1,4 +1,4 @@
-<script>
+
         function validateForm() {
             var fields = ['firstName', 'lastName', 'email', 'mobile', 'message'];
             for (var i = 0; i < fields.length; i++) {
@@ -15,4 +15,3 @@
             console.log("Message: " + document.getElementById('message').value);
             return false; // Prevent form from submitting to a server
         }
-    </script>
